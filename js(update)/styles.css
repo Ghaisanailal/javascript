@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:linear-gradient(to right,  #7b8bc4, #f8cade); 
+}
+
+/* Container styling */
+#container {
+    text-align: center;
+    background: #f8cade; /* Transparan putih */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+/* Tombol default */
+button {
+    background-color: #7b8bc4; /* Hijau */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efek hover tombol */
+button:hover {
+    background-color: #7b8bc4; /* Hijau lebih gelap */
+}
+
+/* Input styling */
+input {
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
